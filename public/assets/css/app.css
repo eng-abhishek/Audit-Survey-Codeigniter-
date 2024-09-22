@@ -1,0 +1,30 @@
+/*common - sidebar - nav css*/
+.main-sidebar{height:100vh;}
+
+/*common - sidebar - nav css end*/
+
+/*pagination css*/
+.pagination .paginate_button.page-item{background:#fff;padding:0!important;}
+.pagination .paginate_button.page-item:hover{border-color:transparent!important;background:#fff;}
+.pagination .paginate_button.page-item .page-link:focus{outline:none!important;box-shadow:none;}
+
+/*pagination css end*/
+
+/*data tables css*/
+table.dataTable thead th,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc{background-image:unset!important;}
+
+/*data tables css end*/
+
+.error{ color:red; }
+
+.field_required:after {
+  content:"*";
+  color:red;
+}
+
+.notification_section{
+    border-top: 1px solid rgba(0,0,0,.125);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}

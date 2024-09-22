@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+body { font-family: 'Source Sans Pro', sans-serif; font-size: 18px; }
+
+/* login page */
+.login-section { height: 100vh; background-color: #fef4ea; }
+.login-section .container-fluid { padding: 0; display: flex; height: 100vh; }
+.login-section .container-fluid > .row { display: flex; width:100%; margin: 0; }
+.login-section .container-fluid .col-lg-6 { padding: 0; background-color: #fef4ea;}
+.left-col-img { background: url(../images/left-img.png) no-repeat; background-size: cover; background-position: top center; height: 100%; width: 100%; }
+.right-col-form {  display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100%; }
+.right-col-form .login-form { width: 90%; max-width: 475px; margin: 0 auto; background-color: #ffffff; padding: 50px; border-radius: 15px; margin-top: -50px; margin-bottom: 50px; }
+.right-col-form .login-form h1 { text-align: center; font-size: 1.22em; margin-bottom: 30px; }
+.form-control { background-color: #F6F7FC !important; border: 0; height: 45px; font-size: .8em; color: #000; }
+.form-control::placeholder { color: #000; }
+.input-group-text { background-color: #F6F7FC !important; border: 0; color: #8B7500 !important; }
+.footer-links a { font-size: .8em; color: #000; font-weight: 600; }
+.footer-links .submitbutton { background-color: #8B7500; text-transform: uppercase; color: #fff; min-width: 120px; float: right; border: 0; border-radius: 10px; }
+
+@media (max-width:991px) {
+    .login-section, .login-section .container-fluid { height: 100%; }
+    .left-col-img { height: 300px; background-position: center;  }
+}
+@media (max-width:500px) {
+    .right-col-form .logo img { width: 100%; }
+    .right-col-form .login-form { padding: 50px 20px; }
+}

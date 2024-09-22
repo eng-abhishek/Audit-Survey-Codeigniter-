@@ -1,2 +1,3 @@
-# Audit-Survey-Codeigniter-
-The aim of this project is to manage the bus and bus route for the different-different schools in the different states and cities and assign the admin or manager for different states or different cities.
+# Audit Survey
+
+The primary objective of the project is to develop a web application to manage multiple school districts, the BOE’s school bus routes, school locations, bus companies, student repository, and audit surveys for each school bus route.
